@@ -1,0 +1,121 @@
+/* Navbar */
+.navigation-wrap.scroll-on{
+    background: #111;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+    padding: 8px 0;
+}
+
+
+/* .navigation-wrap{
+    background: rgba(0,0,0,0.25);
+    backdrop-filter: blur(10px);
+    transition: all 0.4s ease;
+    padding: 12px 0;
+} */
+
+/* Brand logo */
+.navbar-brand img{
+    max-height: 55px;
+}
+
+/* Nav links */
+.navbar-nav .nav-link{
+    color: #fff; 
+    font-weight: 500;
+    margin-left: 20px;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active{
+    color: #ffbe33;
+}
+
+
+/* Home Section */
+#home h1{
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+#home h1 span{
+    color: #ffbe33; /* food vibe */
+}
+
+#home h2{
+    color: #f5f5f5;
+    font-size: 1.3rem;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+#home p{
+    color: #ddd;
+    font-size: 0.95rem;
+    margin-top: 10px;
+}
+
+/* Button style */
+.main-btn{
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(12px);
+    color: #fff;
+    padding: 14px 36px;
+    border-radius: 40px;
+    border: 1px solid rgba(255,255,255,0.3);
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.main-btn:hover{
+    background: #ffbe33;
+    color: #111;
+    border-color: #ffbe33;
+}
+
+
+/* Banner */
+.top-banner{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("banner.png"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+
+.pos-cart{
+  position: sticky;
+  top: 90px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  height: 80vh;
+  overflow-y: auto;
+}
+
+/*Dropdown list */
+#searchResult{
+  z-index: 999;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.search-item{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-item img{
+  width: 50px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 6px;
+}
